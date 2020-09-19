@@ -1,0 +1,116 @@
+html,body{
+    
+  height=100%;
+    margin:0;
+    background-image: url(ds2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("ds.jpg");
+
+  /* Set a specific height */
+  min-height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ h1{
+background:none;
+    font-size: 60px;
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:30px;
+}
+
+
+
+
+
+#questions button {
+  position: relative;
+  background-color:#a15412;
+  border-radius: 10px;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+    opacity:.5;
+}
+
+#questions button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#questions button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+/*submit button*/
+.button {
+  position: relative;
+  background-color: darkorange;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
+
+
+
